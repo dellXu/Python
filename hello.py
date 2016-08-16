@@ -3,7 +3,7 @@
 def abc(*bb):
 	xx=0
 	for n in bb:
-		xx = xx + n
+		xx = xx + n +1
 	return xx
 nums = [1,2,3]
 print (abc(*nums))
